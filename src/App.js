@@ -1,12 +1,13 @@
-import './App.css';
-import BucketList from './components/BucketList';
+import React from "react";
 
-function App() {
+export default function App () {
   return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
+    <main>
+      <Navigation/>
+      <About-Me />
+      <Portfolio />
+      <Contact/>
+      <Resume/>
+    </main>
   );
 }
-
-export default App;
