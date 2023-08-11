@@ -21,9 +21,6 @@ export default function Portfolio() {
                         src={project.image}
                       />
                       <div>
-                        <h2>
-                          {project.subtitle}
-                        </h2>
                         <h1>
                           {project.title}
                         </h1>
@@ -36,4 +33,4 @@ export default function Portfolio() {
         
         </section>
     )
-}
+};

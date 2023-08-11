@@ -18,7 +18,7 @@ To get started, in your terminal run command npm install. Once this is complete,
 
 
 ## Usage
-
+Web Link: https://volcomix13.github.io/20-Portfolio2.0/
 
 Repo link: https://github.com/Volcomix13/20-Portfolio2.0
 
