@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 
-function App () {
+function App() {
   return (
-    <main>
+    <div>
       <Navigation/>
       <AboutMe />
       <Portfolio />
       <Contact/>
       <Resume/>
-    </main>
+    </div>
   );
 }
 
