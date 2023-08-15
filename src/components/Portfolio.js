@@ -1,32 +1,39 @@
 import React from "react";
-import {projects} from "../../src/data";
+
+const portfolio =  [
+  {
+      title: "Musical Travelings",
+      description: "A blog to organize and archive my journey as I travel the US (mostly California) to see kpop groups",
+      image: "./Dreamcatcher.svg",
+      link: "https://www.google.com/",
+  }
+];
 
 
-const Portfolio () => {
-    const projects = [...];
+const Portfolio = () => {
 
     return (
-        <section id="projects" >
+        <section id="portfolio" >
             <div>
                 <h1>
                     Projects I have worked on
                 </h1>
             </div>
             <div>
-                {projects.map((project) => (
+                {portfolio.map((portfolio) => (
                     <a
-                    href={project.link}
-                    key={project.image}>
+                    href={portfolio.link}
+                    key={portfolio.image}>
                     <div>
                       <img
                         alt="images"
-                        src={project.image}
+                        src={portfolio.image}
                       />
                       <div>
                         <h1>
-                          {project.title}
+                          {portfolio.title}
                         </h1>
-                        <p>{project.description}</p>
+                        <p>{portfolio.description}</p>
                       </div>
                     </div>
                   </a>
@@ -36,5 +43,6 @@ const Portfolio () => {
         </section>
     )
 };
+
 
 export default Portfolio;

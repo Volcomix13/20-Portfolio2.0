@@ -1,4 +1,4 @@
-const projects =  [
+const portfolio =  [
     {
         title: "Musical Travelings",
         description: "A blog to organize and archive my journey as I travel the US (mostly California) to see kpop groups",
@@ -7,4 +7,4 @@ const projects =  [
     }
 ];
 
-export default projects;
+export default portfolio;
