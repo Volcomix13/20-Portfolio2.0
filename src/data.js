@@ -1,4 +1,4 @@
-export const projects =  [
+const projects =  [
     {
         title: "Musical Travelings",
         description: "A blog to organize and archive my journey as I travel the US (mostly California) to see kpop groups",
@@ -6,3 +6,5 @@ export const projects =  [
         link: "https://www.google.com/",
     }
 ];
+
+export default projects;

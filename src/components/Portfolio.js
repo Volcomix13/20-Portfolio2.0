@@ -1,8 +1,10 @@
 import React from "react";
-import {projects} from "../data";
+import {projects} from "../../src/data";
 
 
-export default function Portfolio() {
+const Portfolio () => {
+    const projects = [...];
+
     return (
         <section id="projects" >
             <div>
@@ -34,3 +36,5 @@ export default function Portfolio() {
         </section>
     )
 };
+
+export default Portfolio;
