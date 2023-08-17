@@ -6,8 +6,11 @@ const Resume = () => {
         <section>
             <div>
                 <h2>
-                    Education: University of Texas at Austin
+                    Resume
                 </h2>
+                <p>
+                    I know things
+                </p>
             </div>
         </section>
     )
